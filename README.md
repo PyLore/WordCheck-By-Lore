@@ -2,7 +2,7 @@
 
 ### Wordpress checker that attempts to login wordpress site's admin panel using credentials provided in the list
 
-## Required text file format::  https://site.com username:password
+## Required text file format ::  https://site.com username:password
 
 
 ![Screenshot](screenshot.png)
