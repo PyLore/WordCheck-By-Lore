@@ -15,9 +15,11 @@ def main(file: str) -> None:
     global proxies, checked
     proxies = get_proxies(requester=request)
     checked = set()
+    file    = open(file).readlines()
+    print(f'{Colors.WHITE}Checking {len(file)} sites...\n')
     
     with ThreadPoolExecutor(max_workers=600) as executor:
-        for source in open(file):
+        for source in file:
             if (stripped := source.strip()) in checked:
                 continue
             
