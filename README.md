@@ -4,6 +4,8 @@
 
 ![Screenshot](screenshot.png)
 
+### Written in the same format as https://github.com/PyLore/MC-Name-Checker-By-Lore
+
 ## ℹ️Features:
 * Downloads a list of proxies
 
